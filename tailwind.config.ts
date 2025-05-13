@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -19,6 +20,12 @@ export default {
 		},
 		extend: {
 			colors: {
+				jobspring: {
+					blue: "#0033CC",
+					lightblue: "#3366FF",
+					gray: "#E5E5E5",
+					darkgray: "#555555",
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
