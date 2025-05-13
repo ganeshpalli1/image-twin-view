@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { Mic, RefreshCcw, ExitIcon } from 'lucide-react';
+import { Mic, RefreshCcw, LogOut } from 'lucide-react';
 import InterviewProgress from './InterviewProgress';
 import InterviewTimer from './InterviewTimer';
 import TotalTimer from './TotalTimer';
@@ -131,7 +131,7 @@ const Interview = () => {
             variant="outline" 
             className="bg-gray-900 text-white hover:bg-gray-800 flex items-center justify-center gap-2"
           >
-            <ExitIcon className="w-4 h-4" />
+            <LogOut className="w-4 h-4" />
             <span>Exit Interview</span>
           </Button>
           <Button 
